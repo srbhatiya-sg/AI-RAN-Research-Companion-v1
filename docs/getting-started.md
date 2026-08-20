@@ -10,7 +10,7 @@ Download and install Ollama from its [official website](https://ollama.com).
 
 After installation, verify the installation:
 
-```bash
+```powershell
 ollama --version
 
 ```
@@ -19,13 +19,13 @@ ollama --version
 
 Download the model through Ollama:
 
-```bash
+```powershell
 ollama pull qwen3:8b
 
 ```
 Verify that the model is available:
 
-```bash
+```powershell
 ollama list
 
 ```
@@ -39,7 +39,7 @@ In AnythingLLM, configure:
 ### AI Provider → LLM → Ollama
 
 Select:
-```bash
+```powershell
 qwen3:8b
 ```
 At this point, AnythingLLM is using Ollama to run Qwen3 locally.
@@ -65,7 +65,7 @@ Once embedding is complete, the document becomes available to the workspace for 
 ## 8. Verify the Setup
 
 Ask a simple question about the document, for example:
-```bash
+```powershell
 What is the main problem addressed by this paper?
 ```
 If AnythingLLM retrieves relevant content and Qwen3 generates a response, the basic local AI environment is ready.
