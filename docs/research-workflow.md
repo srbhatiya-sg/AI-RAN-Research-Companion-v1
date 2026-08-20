@@ -1,0 +1,303 @@
+# Research Workflow
+
+The AI-RAN Research Companion is designed to support a structured approach to studying technical research papers.
+
+Rather than starting with a long list of questions or asking for a generic summary, the workflow progressively moves from **understanding → analysing → questioning → comparing**.
+
+The objective is to use local AI as a research companion while keeping the original publication or individuals original work as the primary source of truth.
+
+## The Research Flow
+
+```text
+Research Paper
+      ↓
+Executive Brief
+      ↓
+Technical Deep Dive
+      ↓
+Architecture Analysis
+      ↓
+Critical Review
+      ↓
+Cross-Paper Comparison
+      ↓
+Research Notes
+```
+
+Each stage has a different purpose.
+
+---
+
+## 1. Executive Brief
+
+### Objective
+
+Build a quick understanding of the paper before going into technical detail.
+
+Start with questions such as:
+
+```text
+What problem does this paper address?
+
+What is the main objective or contribution?
+
+What are the key ideas introduced?
+
+What are the most important conclusions?
+
+Summarize the paper for an experienced telecom professional who
+has not read it yet.
+```
+
+### Expected outcome
+
+A concise overview covering:
+
+* Problem
+* Motivation
+* Main contribution
+* Key concepts
+* Major conclusions
+
+This stage is about **orientation**, not detailed technical analysis.
+
+---
+
+## 2. Technical Deep Dive
+
+### Objective
+
+Move from the high-level concept into the technical details.
+
+Explore:
+
+```text
+What are the key technical concepts introduced in the paper?
+
+Explain the proposed approach step by step.
+
+What technologies, components, protocols, or mechanisms are involved?
+
+What assumptions does the proposed approach make?
+
+Which technical challenges is the approach attempting to address?
+```
+
+Ask the assistant to explain unfamiliar concepts using telecom terminology and, where useful, simpler explanations.
+
+### Expected outcome
+
+A clearer understanding of:
+
+* Technical approach
+* Key mechanisms
+* Dependencies
+* Assumptions
+* Technical challenges
+
+---
+
+## 3. Architecture Analysis
+
+### Objective
+
+Understand how the different elements described in the paper fit together.
+
+Questions can include:
+
+```text
+Identify the major components of the proposed architecture.
+
+What is the role of each component?
+
+How do the components interact?
+
+What are the key interfaces or information flows?
+
+Which components are existing technologies and which are proposed
+or emerging?
+
+What would need to change in an existing telecom network to
+implement this architecture?
+```
+
+Where the paper contains an architecture diagram, use the original diagram as the primary reference and ask the assistant to explain it.
+
+### Expected outcome
+
+A structured view of:
+
+```text
+Components
+    ↓
+Interfaces
+    ↓
+Interactions
+    ↓
+Data / Control Flow
+    ↓
+Deployment Considerations
+```
+
+---
+
+## 4. Critical Review
+
+### Objective
+
+Move beyond understanding what the paper proposes and examine **how convincing the proposal is**.
+
+Useful questions include:
+
+```text
+What are the strongest technical contributions of this paper?
+
+What assumptions could limit the proposed approach?
+
+What are the main technical or deployment challenges?
+
+Which claims are supported by experimental or quantitative results?
+
+What limitations are acknowledged by the authors?
+
+What limitations are not clearly addressed?
+
+What questions would you ask the authors before considering
+this approach for real-world deployment?
+```
+
+### Expected outcome
+
+A balanced view of:
+
+* Strengths
+* Limitations
+* Assumptions
+* Evidence
+* Open questions
+* Deployment challenges
+
+The objective is not to ask the AI to decide whether the paper is "right" or "wrong", but to use it to support deeper technical thinking.
+
+---
+
+## 5. Cross-Paper Comparison
+
+When multiple research papers are available in the workspace, the Companion can be used to identify similarities and differences.
+
+For example:
+
+```text
+Compare the approaches described in these papers.
+
+What problems are common across the papers?
+
+Where do their architectures differ?
+
+What assumptions are different?
+
+Which technical challenges are addressed by one paper but not another?
+
+Identify complementary ideas across the papers.
+
+What common research gaps emerge from the comparison?
+```
+
+### Expected outcome
+
+A structured comparison across:
+
+| Area             | Paper A | Paper B |
+| ---------------- | ------- | ------- |
+| Problem          |         |         |
+| Approach         |         |         |
+| Architecture     |         |         |
+| Key technologies |         |         |
+| Assumptions      |         |         |
+| Evaluation       |         |         |
+| Limitations      |         |         |
+| Open questions   |         |         |
+
+The comparison should always distinguish between what each paper actually states and any interpretation generated by the AI.
+
+---
+
+## 6. Research Notes
+
+Once the paper has been explored, use the Companion to consolidate the findings.
+
+Useful outputs include:
+
+```text
+Create a one-page research brief from the analysis.
+
+List the five most important technical insights.
+
+List the three most important open questions.
+
+Identify concepts that require further research.
+
+Create discussion questions for a technical workshop.
+
+Create a structured set of notes that can be used for further study.
+```
+
+The objective is to turn a long technical publication into a structured set of **working notes**, while retaining the ability to return to the original source.
+---
+
+# A Note on AI-Generated Analysis
+
+The Research Companion is intended to **accelerate technical reading, not replace it**.
+
+AI-generated responses can contain:
+
+* Incorrect interpretations
+* Missing context
+* Hallucinated information
+* Over-simplifications
+* Incorrect conclusions
+
+For important technical work, always validate the response against the original publication.
+
+A useful principle is:
+
+```text
+AI insight
+    ↓
+Check the source
+    ↓
+Validate the interpretation
+    ↓
+Form your own conclusion
+```
+
+The original research paper remains the source of truth.
+
+---
+
+# Beyond AI-RAN
+
+Although this Companion was initially developed around AI-RAN research, the workflow is intentionally broader.
+
+The same approach can be applied to:
+
+* Open RAN
+* 5G / 6G
+* NTN
+* Network APIs
+* Network Digital Twins
+* Cloud-native telecom
+* Network automation
+* 3GPP technical studies
+* Telecom architecture papers
+* Industry whitepapers
+
+The documents may change, but the **research workflow remains largely the same**.
+
+---
+
+## The Key Idea
+
+The AI-RAN Research Companion is not intended to provide a shortcut around technical reading.
+
+It is designed to provide a **structured way of reading, questioning, comparing, and thinking about technical research with the help of local AI**.
