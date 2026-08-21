@@ -40,3 +40,7 @@ This project was introduced and explored in the Linked in Newsletter "Tech DeMoR
 Read the full article: [Tech DeMoRe — Edition 2](https://www.linkedin.com/pulse/decoding-digital-twins-exploring-local-ai-anythingllm-shital-bhatiya-mjmlc/)
 
 This repo intends to provide the replicable setup of the companion.
+
+## Feedback & Suggestions
+Feedback, suggestions, and ideas for improving the AI-RAN Research Companion are welcome. Feel free to reach out through the Tech [DeMoRe newsletter](https://www.linkedin.com/pulse/decoding-digital-twins-exploring-local-ai-anythingllm-shital-bhatiya-mjmlc/) or [DM on LinkedIn](https://www.linkedin.com/in/shital-bhatiya/).
+
